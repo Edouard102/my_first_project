@@ -1,5 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding :0;
+    border: none;}
+
 body{
-    font-family: Cambria, sans-serif;
-    font-size: large;
+    font-family: Montserrat,sans-serif;
+    font-size: "200";
+    color:"#212529";
     background-color: white;
 }
