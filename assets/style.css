@@ -8,7 +8,50 @@
 
 body{
     font-family: Montserrat,sans-serif;
-    font-size: "200";
-    color:"#212529";
+    font-size: 200;
+    color:#212529;
     background-color: white;
+}
+
+/*  headings and photo */
+h1, h2 { 
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#212529 ;
+    
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    line-height: 75px;
+
+}
+
+/* navigation links*/
+
+    #menu {
+ font-size: 110%;
+ letter-spacing: 2px;
+ line-height: 150px;
+
+}
+
+#menu li {
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom: 1px solid #212529;
+}
+
+.active{
+    border-bottom: 1px solid #212529;  
 }
