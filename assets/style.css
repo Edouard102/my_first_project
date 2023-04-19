@@ -1,57 +1,71 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
     margin: 0;
-    padding :0;
-    border: none;}
+    padding: 0;
+    border: none;
+}
 
-body{
-    font-family: Montserrat,sans-serif;
+body {
+    font-family: Montserrat, sans-serif;
     font-size: 200;
-    color:#212529;
+    color: #212529;
     background-color: white;
 }
 
 /*  headings and photo */
-h1, h2 { 
-    font-family: Montserrat,sans-serif;
+h1, h2 {
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#212529 ;
-    
+    color: #212529;
 }
 
 #logo {
-    float: left;
     font-size: 250%;
     line-height: 75px;
-
+    text-align: center;
 }
 
+#circle-container {
+    width: 225px;
+    height: 225px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 2px;
+    border-radius: 50%;
+    line-height: 0;
+}
+#circle-cover-bg {
+    background: url('../assets/images/christophe-arleston.jpg') no-repeat ;
+    height: 100%;
+    border-radius: 50%;
+}
 /* navigation links*/
 
-    #menu {
- font-size: 110%;
- letter-spacing: 2px;
- line-height: 150px;
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+   
 
 }
 
 #menu li {
-    float:right;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
-#menu a:hover{
+
+#menu a:hover {
     border-bottom: 1px solid #212529;
 }
 
-.active{
-    border-bottom: 1px solid #212529;  
+.active {
+    border-bottom: 1px solid #ffc107;
 }
