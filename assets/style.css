@@ -14,7 +14,8 @@ body {
 }
 
 /*  headings and photo */
-h1, h2 {
+h1,
+h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -25,7 +26,7 @@ h1, h2 {
     font-size: 250%;
     line-height: 75px;
     text-align: center;
-    
+
 }
 
 #circle-container {
@@ -38,11 +39,13 @@ h1, h2 {
     border-radius: 50%;
     line-height: 0;
 }
+
 #circle-cover-bg {
-    background: url('../assets/images/christophe-arleston.jpg') no-repeat ;
+    background: url('../assets/images/christophe-arleston.jpg') no-repeat;
     height: 100%;
     border-radius: 50%;
 }
+
 /* navigation links*/
 
 #menu {
@@ -69,40 +72,68 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #ffc107;
 }
+
+/*style */
+#lanfeust-de-troy-bandeau-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#lanfeust-de-troy-bandeau-image {
+    height: 600px;
+    width: 100%;
+    background: url('../assets/images/lanfeust-de-troy-bandeau.jpeg') no-repeat center center;
+}
+
 /*style table*/
 table {
-	width: 70%;
+    width: 70%;
+    font-size: 130%;
+    padding-top: 40px;
+    padding-right: 10px;
+    background-color: rgba(249, 109, 107, .7);
 
+    bottom: 10px;
+    right: 0px;
+    position: absolute;
 }
+
 tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-tr, th, td {
-	text-align: left;
+tr,
+th,
+td {
+    text-align: left;
 }
 
-th, td {
-	border: 1px solid black;
-	padding: 5px;}
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
 
 /*style biography*/
 
-#chapitre{
+#chapitre {
     height: 50px;
     width: 700px;
     padding-left: 200px;
 }
 
-.bio{
+.bio {
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     color: #212529;
     text-align: justify;
-    background-color:red ;
+    background-color: red;
     height: 100px;
     width: 700px;
     padding-left: 200px;
-   margin: 20px;
+    margin: 20px;
 }
