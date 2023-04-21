@@ -93,11 +93,11 @@ table {
     font-size: 130%;
     padding-top: 40px;
     padding-right: 10px;
-    background-color: rgba(249, 109, 107, .7);
-
+color: #ffc107;
     bottom: 10px;
-    right: 0px;
+    left: 700px;
     position: absolute;
+    
 }
 
 tr {
@@ -105,14 +105,11 @@ tr {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-tr,
-th,
-td {
+tr, th, td {
     text-align: left;
 }
 
-th,
-td {
+th, td {
     border: 1px solid black;
     padding: 5px;
 }
