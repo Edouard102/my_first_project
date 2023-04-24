@@ -74,31 +74,27 @@ h2 {
     border-bottom: 1px solid #ffc107;
 }
 
-/*style */
-#lanfeust-de-troy-bandeau-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+/*style image */
+#images{
+    
+    clear:both;  
+    column-count: 3;
+    column-gap: 0;
+   
 }
-
-#lanfeust-de-troy-bandeau-image {
-    height: 600px;
-    width: 100%;
-    background: url('../assets/images/lanfeust-de-troy-bandeau.jpeg') no-repeat center center;
-}
+#images > img {
+ float: left;
+width: 100%;}
 
 /*style table*/
 table {
-    width: 70%;
+    width: 50%;
     font-size: 130%;
     padding-top: 40px;
     padding-right: 10px;
-color: #ffc107;
-    bottom: 10px;
-    left: 700px;
+    color: #212529;
     position: absolute;
-    
+   
 }
 
 tr {
@@ -111,7 +107,7 @@ tr, th, td {
 }
 
 th, td {
-    border: 1px solid black;
+    border: 1px solid #ffc107;
     padding: 5px;
 }
 
@@ -130,8 +126,67 @@ th, td {
     color: #212529;
     text-align: justify;
     background-color: red;
-    height: 100px;
+    height: 100%;
     width: 700px;
     padding-left: 200px;
     margin: 20px;
 }
+
+/*sty Bibliographyle */
+ol { 
+    list-style-type: none;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    color: #212529;
+    text-align: justify;
+    background-color: red;
+    height: 100%;
+    width: 700px;
+    padding-left: 200px;
+    margin-left: 20px;
+
+}
+/* footer style*/
+
+footer{
+    height: 150%;
+    }
+    .social-networks{
+        text-align: center;
+    }
+    .social-networks > li{
+        display: inline;
+    }
+    .social-networks i{
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #ffc107;
+    }
+    
+
+/*style lanfeust.htlm */
+
+#lanfeust-de-troy-bandeau-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#lanfeust-de-troy-bandeau-image {
+    height: 400px;
+    width: 100%;
+    background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;}
+
+/*style Synopsis*/
+.synopsis {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    color: #212529;
+    text-align: justify;
+    background-color: red;
+    height: 100%;
+    width: 700px;
+    padding-left: 200px;
+    margin: 20px;}
