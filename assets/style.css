@@ -121,9 +121,6 @@ th, td {
 }
 
 .bio {
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 2px;
-    color: #212529;
     text-align: justify;
     background-color: red;
     height: 100%;
@@ -134,18 +131,18 @@ th, td {
 
 /*style Bibliographyle */
 ol { 
-    list-style-type: none;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 2px;
-    color: #212529;
+    list-style-type: circle;
     text-align: justify;
-    background-color: red;
     height: 100%;
     width: 700px;
     padding-left: 200px;
     margin-left: 20px;
-
+    margin: 20px;
 }
+li {
+    margin: 10px;
+}
+
 /* footer style*/
 
 footer{
@@ -167,6 +164,15 @@ footer{
 
 /*style lanfeust.htlm */
 
+p {
+    text-align: justify;
+    background-color: red;
+    height: 100%;
+    width: 700px;
+    padding-left: 200px;
+    margin: 20px;}
+
+
 #lanfeust-de-troy-bandeau-outer {
     height: 600px;
     width: 100%;
@@ -181,9 +187,15 @@ footer{
 
 /*style Synopsis*/
 .synopsis {
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 2px;
-    color: #212529;
+    text-align: justify;
+    background-color: red;
+    height: 100%;
+    width: 700px;
+    padding-left: 200px;
+    margin: 20px;}
+
+   /* style publication*/
+   #publication{
     text-align: justify;
     background-color: red;
     height: 100%;
