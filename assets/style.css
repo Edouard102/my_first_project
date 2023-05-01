@@ -195,10 +195,18 @@ p {
     margin: 20px;}
 
    /* style publication*/
-   #publication{
-    text-align: justify;
-    background-color: red;
-    height: 100%;
-    width: 700px;
-    padding-left: 200px;
-    margin: 20px;}
+
+    #publication { 
+        list-style-type: none;
+        text-align: justify;
+        height: 100%;
+        width: 700px;
+        padding-left: 50px;
+        margin: 10px;
+        background-color: red;
+    }
+#imgpubli {    
+    clear:both;  
+    width: 10%;
+    height: auto;
+}  
