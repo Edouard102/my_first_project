@@ -16,12 +16,15 @@ body {
 /*  headings and photo */
 h1,
 h2 {
-    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #212529;
 }
-
+h3 {position: absolute;
+    left: 300px;
+    text-decoration: underline #ffc107;
+    background-color: red;
+}
 #logo {
     font-size: 250%;
     line-height: 75px;
@@ -203,8 +206,18 @@ p {
         width: 700px;
         padding-left: 50px;
         margin: 10px;
-        background-color: red;
     }
+    
+#imgcharacter{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 2px;
+    border-radius: 50%;
+    float: left;
+}
 #imgpubli {    
     clear:both;  
     width: 10%;
