@@ -18,13 +18,17 @@ h1,
 h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #212529;
+
 }
-h3 {position: absolute;
+
+h3 {
+    position: absolute;
     left: 300px;
     text-decoration: underline #ffc107;
     background-color: red;
+
 }
+
 #logo {
     font-size: 250%;
     line-height: 75px;
@@ -47,7 +51,7 @@ h3 {position: absolute;
     background: url('../assets/images/christophe-arleston.jpg') no-repeat;
     height: 100%;
     border-radius: 50%;
-    
+
 }
 
 /* navigation links*/
@@ -78,16 +82,18 @@ h3 {position: absolute;
 }
 
 /*style image */
-#images{
-    
-    clear:both;  
+#images {
+
+    clear: both;
     column-count: 3;
     column-gap: 0;
-   
+
 }
-#images > img {
- float: left;
-width: 100%;}
+
+#images>img {
+    float: left;
+    width: 100%;
+}
 
 /*style table*/
 table {
@@ -97,7 +103,7 @@ table {
     padding-right: 10px;
     color: #212529;
     position: absolute;
-   
+
 }
 
 tr {
@@ -105,11 +111,14 @@ tr {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-tr, th, td {
+tr,
+th,
+td {
     text-align: left;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ffc107;
     padding: 5px;
 }
@@ -133,7 +142,7 @@ th, td {
 }
 
 /*style Bibliographyle */
-ol { 
+ol {
     list-style-type: circle;
     text-align: justify;
     height: 100%;
@@ -142,51 +151,52 @@ ol {
     margin-left: 20px;
     margin: 20px;
 }
+
 li {
     margin: 10px;
 }
 
 /* footer style*/
 
-footer{
+footer {
     height: 150%;
-    }
-    .social-networks{
-        text-align: center;
-    }
-    .social-networks > li{
-        display: inline;
-    }
-    .social-networks i{
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #ffc107;
-    }
-    
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffc107;
+}
+
 
 /*style lanfeust.htlm */
 
-p {
+p {position: relative;
     text-align: justify;
     background-color: red;
     height: 100%;
     width: 700px;
     padding-left: 200px;
-    margin: 20px;}
-
-
-#lanfeust-de-troy-bandeau-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+    margin: 20px;
 }
+
 
 #lanfeust-de-troy-bandeau-image {
     height: 400px;
     width: 100%;
-    background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;}
+    overflow: hidden;
+    position: relative;
+    background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;
+}
 
 /*style Synopsis*/
 .synopsis {
@@ -195,20 +205,21 @@ p {
     height: 100%;
     width: 700px;
     padding-left: 200px;
-    margin: 20px;}
+    margin: 20px;
+}
 
-   /* style publication*/
+/* style publication*/
 
-    #publication { 
-        list-style-type: none;
-        text-align: justify;
-        height: 100%;
-        width: 700px;
-        padding-left: 50px;
-        margin: 10px;
-    }
-    
-#imgcharacter{
+#publication {
+    list-style-type: none;
+    text-align: justify;
+    height: 100%;
+    width: 700px;
+    padding-left: 50px;
+    margin: 10px;
+}
+
+#imgcharacter {
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -218,8 +229,101 @@ p {
     border-radius: 50%;
     float: left;
 }
-#imgpubli {    
-    clear:both;  
+
+#imgpubli {
+    clear: both;
     width: 10%;
     height: auto;
-}  
+}
+
+/*add style to newsleTter.html*/
+
+#background_lanfeust{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: center center;
+    background: url('../assets/images/background_lanfeust.jpg') no-repeat center center;
+background-size: cover;
+
+}
+
+.signup-form {
+
+    margin: 150px 10% 0 0;
+    color: #ffc107;
+    background-color: transparent;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form>h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: #ffc107;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffc107;
+    border-radius: 2px;
+}
+
+.input-conteneur input{
+    display:block;
+    margin-bottom:10px;
+    padding-left: 100px;
+}
+
+.text-input:hover {
+    border-color: #212529;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: transparent;
+    color: #ffc107;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #212529;
+}
+
+/* add style to video html */
+
+
+.bluebackground {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background: url('../assets/images/bluebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+#video {
+    width:560px; 
+    height:315px;
+    overflow: auto;
+
+  z-index: 1;
+
+}
+#video{
+    top: 50;
+    
+    z-index: 2;
+}
