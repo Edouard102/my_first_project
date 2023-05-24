@@ -16,19 +16,19 @@
 <body>
 
     <header>
-        <a>
-            <nav>
-                <ul id="menu">
-                    <li><a href="newsletter.html">Newsletter</a></li>
-                    <li><a href="video.html">Video</a></li>
-                    <li><a href="index.html" class="active">Home</a></li>
-                </ul>
-            </nav>
-        </a>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="newsletter.html" class="active">Newsletter</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+
     </header>
     <section id="background_lanfeust">
-        <div id="background_lanfeust">
- 
+
+
         <form method="post" class="signup-form">
             <h2>Newsletter <i class="fa-solid fa-envelope"></i></h2>
 
@@ -40,17 +40,18 @@
 
             <label for="email">Email Address</label>
             <input class="text-input" type="email" id="email" name="email_address" required>
+            <div class="frame_news">
+                <input type="radio" required>
+                <label id="news">You agree to receive news by email.</label>
 
-            <input type="radio" required>
-            <label for="news">You agree to receive news by email.</label>
-
-            <input type="radio" required>
-            <label for="offers">You agree to receive promotional offers by email.</label>
-
+                <input type="radio" required>
+                <label id="offer">You agree to receive promotional offers by email.</label>
+            </div>
 
             <input class="join-button" type="submit" value="Signup">
 
-        </form> </div>
+
+        </form>
     </section>
 
 

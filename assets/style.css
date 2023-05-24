@@ -10,56 +10,43 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     color: #212529;
-    background-color:#F7F7F7;
+    background-color: #F7F7F7;
 
 }
 
-/*  headings and photo */
 h1,
 h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
+}
 
+h2 {
+    height: 50px;
+    width: 700px;
+    padding-left: 200px;
 }
 
 h3 {
     position: relative;
     left: 300px;
     text-decoration: underline #ffc107;
-   
-
 }
 
-p {position: relative;
+p {
+    position: relative;
     text-align: justify;
     height: 100%;
     width: 700px;
     margin: 20px;
-    left:200px;
+    left: 200px;
 }
+
+/*  headings and photo */
 
 #logo {
     font-size: 250%;
     line-height: 75px;
     text-align: center;
-
-}
-
-#circle-container {
-    width: 225px;
-    height: 225px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ffc107;
-    border-width: 2px;
-    border-radius: 50%;
-    line-height: 0;
-}
-
-#circle-cover-bg {
-    background: url('../assets/images/christophe-arleston.jpg') no-repeat;
-    height: 100%;
-    border-radius: 50%;
 
 }
 
@@ -90,55 +77,75 @@ p {position: relative;
     border-bottom: 1px solid #ffc107;
 }
 
-/*style image */
-#images {
+/*style image christophe arleston*/
 
-    clear: both;
-    column-count: 3;
-    column-gap: 0;
-margin:100px;
+#circle-container {
+    width: 225px;
+    height: 225px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 2px;
+    border-radius: 50%;
+
+}
+
+#circle-cover-bg {
+    background: url('../assets/images/christophe-arleston.jpg') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+/*style image */
+
+#images {
+    overflow: hidden;
+    float: right;
+    margin-right: 175px;
+
 }
 
 #images>img {
-    float: left;
-    width: 100%;
+    width: 400px;
+    height: 315px;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
 }
 
 /*style table*/
+
+
 table {
-    width: 50%;
+    width: 30%;
+    height: 300px;
     font-size: 130%;
     padding-top: 40px;
-    padding-right: 10px;
+    padding-left: 10px;
     color: #212529;
-    position: absolute;
-
+    overflow: hidden;
+    float: right;
+    margin-right: 100px;
 }
 
 tr {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 tr,
-th,
 td {
     text-align: left;
 }
 
-th,
 td {
     border: 1px solid #ffc107;
     padding: 5px;
-}
-
-
-/*style biography*/
-
-#chapitre {
-    height: 50px;
-    width: 700px;
-    padding-left: 200px;
 }
 
 
@@ -182,56 +189,68 @@ footer {
 
 /*style lanfeust.htlm */
 
-
-
-
 #lanfeust-de-troy-bandeau-image {
     height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
     background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;
+
 }
 
 
-/* style publication*/
-
-#publication {
-    list-style-type: none;
-    text-align: justify;
-    height: 100%;
-    width: 700px;
-    padding-left: 50px;
-    margin: 10px;
-}
-
-#imgcharacter {
-    width: 150px;
-    height: 150px;
+#imgcharacter>img {
+    clear: both;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     border-style: solid;
     border-color: #ffc107;
     border-width: 2px;
     border-radius: 50%;
-    float: left;
-    position:absolute;
+    float: right;
+    position: relative;
+    margin-right: 250px;
 }
 
-#imgpubli {
+#imgcounty>img {
     clear: both;
+    float: right;
+    margin-right: 250px;
+    position: relative;
+}
+
+/* style publication*/
+
+#publication {
+
+    list-style-type: disc;
+    text-align: justify;
+    height: 100%;
+    width: 700px;
+    padding-left: 200px;
+    margin-left: 20px;
+    margin: 20px;
+    left: 200px;
+}
+
+#imgpubli>img {
+    clear: both;
+    margin-left: 12px;
     width: 10%;
     height: auto;
 }
 
+
 /*add style to newsleTter.html*/
 
-#background_lanfeust{
+#background_lanfeust {
+
     height: 800px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
     background: url('../assets/images/background_lanfeust.jpg') no-repeat center center;
-background-size: cover;
-
+    background-size: cover;
 }
 
 .signup-form {
@@ -261,9 +280,9 @@ background-size: cover;
     border-radius: 2px;
 }
 
-.input-conteneur input{
-    display:block;
-    margin-bottom:10px;
+.input-conteneur input {
+    display: block;
+    margin-bottom: 10px;
     padding-left: 100px;
 }
 
@@ -277,45 +296,219 @@ background-size: cover;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: transparent;
-    color: #ffc107;
+    background-color: #ffc107;
+    color: #212529;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #ffc107;
     color: #212529;
 }
+
+.frame_news>input {
+    display: block;
+}
+
+#message-container {
+    display: none;
+    text-align: center;
+}
+
+#congrats-message {
+    color: #212529;
+    font-weight: bold;
+}
+
 
 /* add style to video html */
 
 
 .bluebackground {
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     background: url('../assets/images/bluebackground.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: scroll;
-}
-
-
-#video {
-    width:560px; 
-    height:315px;
-    overflow: auto;
-
-  z-index: 1;
 
 }
-#video{
-    top: 50px;
-    
-    z-index: 2;
+
+#frameborder>iframe {
+    width: 560px;
+    height: 315px;
+    border-style: solid;
+    border-color: #ffc107;
+    border-width: 2px;
+    display: block;
+    margin: 10px auto;
+    position: relative;
 }
 
-/*media queries 320  480 mobil
-                481   768 tablette
-                769     1024 ordi*/
-                 
-@media screen and (min-width: 480px) 
+/*media queries*/
+
+/* For larger to medium screens size from 1201px wide and down */
+@media screen and (max-width: 1201px) {
+
+    p {
+        left: 100px;
+    }
+
+    .biocontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        order: -1;
+        width: auto;
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    #images>img {
+        float: left;
+        margin-left: 10px;
+    }
+
+    ol {
+        padding-left: 100px;
+
+    }
+
+    #imgcharacter>img {
+        width: 150px;
+        height: 150px;
+        margin-right: 25px;
+    }
+
+    #imgcounty>img {
+        height: auto;
+        width: 15%;
+        margin-right: 25px;
+    }
+
+    #publication {
+
+        height: 100%;
+        width: 700px;
+        padding-left: 50px;
+        left: 200px;
+    }
+
+    #imgpubli>img {
+        clear: both;
+        margin-left: 5px;
+        width: 10%;
+        height: auto;
+    }
+
+}
+
+/* For medium screen sizes from 769px wide and down */
+@media screen and (max-width: 769px) {
+
+
+    p {
+        left: 20px;
+    }
+
+    #images {
+        margin-right: 10px;
+    }
+
+    #images>img {
+        width: 266px;
+        height: 210px;
+    }
+
+    #imgcharacter>img {
+        margin-right: 5px;
+    }
+
+    #imgcounty>img {
+        margin-right: 20px;
+    }
+
+    #frameborder>iframe {
+        width: 266px;
+        height: 210px;
+    }
+}
+
+/* For small screen sizes below 481px width */
+@media screen and (max-width: 481px) {
+    #logo {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    p {
+        width: 320px;
+    }
+
+
+    #circle-container {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+    table {
+
+        width: 100%;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    #images {
+        margin-right: 10px;
+    }
+
+    ol {
+        width: 10%;
+        padding-left: 10px;
+
+    }
+
+    #images>img {
+        width: 133px;
+        height: 105px;
+        margin: 25px 0 25px 25px;
+    }
+
+    #imgcharacter>img {
+        margin-right: 20px;
+    }
+
+    #imgcounty>img {
+        margin-right: 20px;
+    }
+
+    #publication {
+        width: 10%;
+        padding-left: 10px;
+    }
+
+    .bluebackground {
+        height: 500px;
+        width: 100%;
+    }
+
+    #frameborder>iframe {
+        width: 133px;
+        height: 105px;
+        margin-top: 50px;
+    }
+
+
+}
