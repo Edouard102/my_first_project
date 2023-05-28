@@ -10,10 +10,12 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     color: #212529;
-    background-color: #F7F7F7;
-
+    background-color: #F7F7F7;    
 }
 
+section {
+    text-align: center;
+}
 h1,
 h2 {
     text-transform: uppercase;
@@ -21,41 +23,33 @@ h2 {
 }
 
 h2 {
-    height: 50px;
-    width: 700px;
-    padding-left: 200px;
+margin:0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 h3 {
-    position: relative;
-    left: 300px;
+  
+  margin:0 auto;
     text-decoration: underline #ffc107;
 }
 
 p {
-    position: relative;
+    
     text-align: justify;
     height: 100%;
-    width: 700px;
-    margin: 20px;
-    left: 200px;
+    width: 60ch;
+    margin:0 auto;
+    padding: 10px 0;
 }
 
-/*  headings and photo */
-
-#logo {
-    font-size: 250%;
-    line-height: 75px;
-    text-align: center;
-
-}
-
+ 
 /* navigation links*/
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    line-height: 150px;
+    line-height: 36px;
 }
 
 #menu li {
@@ -79,7 +73,28 @@ p {
 
 /*style image christophe arleston*/
 
+#main-title {
+    display: inline;
+    float: right;
+    margin-top: 150px;
+    margin-right:150px;
+    font-size: 50px;
+
+    /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color
+    for the following css to make text more readable.*/
+    text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black,
+    -0.02em -0.02em black,
+    -0.02em 0.02em black,
+    0.02em -0.02em black,
+    0.02em 0.02em black;
+}
+
 #circle-container {
+    display: inline-block;
     width: 225px;
     height: 225px;
     padding: 30px;
@@ -87,16 +102,15 @@ p {
     border-color: #ffc107;
     border-width: 2px;
     border-radius: 50%;
-
+    margin: 60px 0 0 160px;
 }
 
 #circle-cover-bg {
     background: url('../assets/images/christophe-arleston.jpg') no-repeat;
     height: 100%;
     border-radius: 50%;
+    
 }
-
-
 
 /*style image */
 
@@ -117,22 +131,58 @@ p {
     margin-bottom: 100px;
     display: block;
 }
-
+/* --------------------------------------------------------------- style biography------------------------------------------------------------------------------- */
 /*style table*/
 
+/* 
+    style for rounded corner taken from https://unused-css.com/blog/css-rounded-table-corners/
+    Credit to unused-css.com
+    */
 
-table {
+    table.rounded-corners {
+        border-spacing: 0;
+        border-collapse: separate;
+        border-radius: 6px;
+        border: 1px solid #ffc107;
+       }
+       
+       /* Apply a border to the right of all but the last column */
+       table.rounded-corners th:not(:last-child),
+       table.rounded-corners td:not(:last-child) {
+        border-right: 1px solid #ffc107;
+       }
+       
+       /* Apply a border to the bottom of all but the last row */
+       table.rounded-corners>thead>tr:not(:last-child)>th,
+       table.rounded-corners>thead>tr:not(:last-child)>td,
+       table.rounded-corners>tbody>tr:not(:last-child)>th,
+       table.rounded-corners>tbody>tr:not(:last-child)>td,
+       table.rounded-corners>tfoot>tr:not(:last-child)>th,
+       table.rounded-corners>tfoot>tr:not(:last-child)>td,
+       table.rounded-corners>tr:not(:last-child)>td,
+       table.rounded-corners>tr:not(:last-child)>th,
+       table.rounded-corners>thead:not(:last-child),
+       table.rounded-corners>tbody:not(:last-child),
+       table.rounded-corners>tfoot:not(:last-child) {
+        border-bottom: 1px solid #ffc107;
+       }
+    /* end of credit */
+
+.biocontainer {
+     padding: 10;}
+.biotable {
     width: 30%;
-    height: 300px;
-    font-size: 130%;
-    padding-top: 40px;
-    padding-left: 10px;
+    height: 290px;
+    font-size: 100%;
     color: #212529;
     overflow: hidden;
     float: right;
-    margin-right: 100px;
+    margin-right: 50px;
+    margin-left: 10px;
+    /* padding: 10px 0; */
+    /* padding-left: 10px; */
 }
-
+/* 
 tr {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -142,34 +192,32 @@ tr,
 td {
     text-align: left;
 }
+*/
 
 td {
-    border: 1px solid #ffc107;
+    /* border: 1px solid #ffc107; */
     padding: 5px;
+  
 }
 
+.p-bio{
+    margin-left: 300px;
+}
 
-
-/*style Bibliographyle */
+/* --------------------------------------------------------------- style Bibliography------------------------------------------------------------------------------- */
 ol {
     list-style-type: circle;
     text-align: justify;
     height: 100%;
     width: 700px;
-    padding-left: 200px;
-    margin-left: 20px;
-    margin: 20px;
+    margin-left: 300px;
 }
 
 li {
     margin: 10px;
 }
 
-/* footer style*/
-
-footer {
-    height: 150%;
-}
+/* --------------------------------------------------------------- footer style------------------------------------------------------------------------------- */
 
 .social-networks {
     text-align: center;
@@ -182,12 +230,11 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 3px;
     color: #ffc107;
 }
 
-
-/*style lanfeust.htlm */
+/* --------------------------------------------------------------- style lanfeust.htlm------------------------------------------------------------------------------- */
 
 #lanfeust-de-troy-bandeau-image {
     height: 400px;
@@ -195,10 +242,24 @@ footer {
     overflow: hidden;
     position: relative;
     background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;
-
 }
 
+#tile-lan{
+    
+    font-size: 40px;
 
+    /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color
+    for the following css to make text more readable.*/
+    text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black,
+    -0.02em -0.02em black,
+    -0.02em 0.02em black,
+    0.02em -0.02em black,
+    0.02em 0.02em black;}
+    
 #imgcharacter>img {
     clear: both;
     width: 200px;
@@ -228,10 +289,7 @@ footer {
     text-align: justify;
     height: 100%;
     width: 700px;
-    padding-left: 200px;
-    margin-left: 20px;
-    margin: 20px;
-    left: 200px;
+  margin-left: 400px;
 }
 
 #imgpubli>img {
@@ -241,33 +299,30 @@ footer {
     height: auto;
 }
 
-
 /*add style to newsleTter.html*/
 
-#background_lanfeust {
-
+#background-lanfeust {
     height: 800px;
     width: 100%;
     overflow: hidden;
     background: url('../assets/images/background_lanfeust.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cointain;
+    /* background-color: #3e120f; */
 }
 
 .signup-form {
-
-    margin: 150px 10% 0 0;
     color: #ffc107;
     background-color: transparent;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 25%;
+    top:25%;
     padding: 30px;
 }
 
 .signup-form>h2 {
     color: #ffc107;
     margin-bottom: 20px;
-
 }
 
 .text-input {
@@ -281,6 +336,7 @@ footer {
 }
 
 .input-conteneur input {
+
     display: block;
     margin-bottom: 10px;
     padding-left: 100px;
@@ -306,13 +362,13 @@ footer {
     color: #212529;
 }
 
-.frame_news>input {
-    display: block;
+.frame-news {
+    text-align: left;
+    font-size: 75%;
 }
 
-#message-container {
-    display: none;
-    text-align: center;
+.frame-news>input {
+    margin: 6px;
 }
 
 #congrats-message {
@@ -320,9 +376,7 @@ footer {
     font-weight: bold;
 }
 
-
 /* add style to video html */
-
 
 .bluebackground {
     height: 100%;
@@ -346,35 +400,43 @@ footer {
 
 /*media queries*/
 
-/* For larger to medium screens size from 1201px wide and down */
-@media screen and (max-width: 1201px) {
+/* For larger to medium screens size from 1024px wide and down */
+@media screen and (max-width: 1400px) {
 
-    p {
-        left: 100px;
+    body{
+        font-size: 15px;
     }
 
-    .biocontainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    table {
-        order: -1;
-        width: auto;
-        height: 100px;
+     /* index.html */
+    .p-bio{
         margin-left: 50px;
     }
 
-    #images>img {
-        float: left;
-        margin-left: 10px;
+        
+    #main-title {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    #circle-container {
+        width: 120px;
+        height: 120px;
+        padding: 9px;
+        margin: 40px 0 0 100px;
+    }
+
+    #circle-cover-bg {
+        background-size: 100%;
+    }
+    #images{
+        margin-left: 50px;
     }
 
     ol {
-        padding-left: 100px;
-
+        margin-left: 70px; 
     }
 
+    /*lanfeust.html*/
     #imgcharacter>img {
         width: 150px;
         height: 150px;
@@ -384,11 +446,11 @@ footer {
     #imgcounty>img {
         height: auto;
         width: 15%;
+        padding-top: 10px;
         margin-right: 25px;
     }
 
     #publication {
-
         height: 100%;
         width: 700px;
         padding-left: 50px;
@@ -402,14 +464,21 @@ footer {
         height: auto;
     }
 
-}
+    .frame-news {
+        font-size: 100%;
+    }
+    
+    .signup-form {
+        left: 15%;
+        top:36%;
+    }
+
 
 /* For medium screen sizes from 769px wide and down */
 @media screen and (max-width: 769px) {
 
-
     p {
-        left: 20px;
+        margin-left: 20px;
     }
 
     #images {
@@ -437,7 +506,7 @@ footer {
 
 /* For small screen sizes below 481px width */
 @media screen and (max-width: 481px) {
-    #logo {
+    #main-title {
         font-size: 150%;
         text-align: center;
     }
@@ -445,7 +514,6 @@ footer {
     p {
         width: 320px;
     }
-
 
     #circle-container {
         margin-left: 100px;
@@ -461,7 +529,6 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
 
     table {
 
@@ -509,6 +576,5 @@ footer {
         height: 105px;
         margin-top: 50px;
     }
-
-
 }
+
