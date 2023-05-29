@@ -1,21 +1,21 @@
-
  # **Christophe Arleston**
+
 ![responsicemockup]https://ui.dev/amiresponsive?url=https://edouard102.github.io/my_first_project/
 ![responsicemockup](assets/images/images_readme/ami_responsive_home.png)
 
 The site on Christophe Arleston is an internet page to bring knowledge about this author but also to know his work in the comic strip.
 The site is intended for the person who does not know very well the author and who wishes to know more about his work.
 
-
 ## Feature
 
-
  ## Navigation
-![the ](assets/images/images_readme/social_media.png)
+
+![the ](assets/images/images_readme/nav_bar.png)
  On the top right we can find the link for the three pages (navigation bar)
 It will give you all three pages and easy access. the navigation bar includes links to the homepage, video and newsletter page. it is the same on all pages this will allow the user to easily navigate between pages>
 
 ## the footer
+
 ![the footer](assets/images/images_readme/social_media.png)
 Here you will find the different social media links such as Facebook, Instagram, YouTube on Christophe Arleston.
 And we will find it on all the pages. for a good homogenisation of the site.
@@ -39,7 +39,6 @@ this section gives the user quick and easy access to the video. there is no need
 
 ## The newsletter page.
 
-
 Gives the possibility to the person to stay in touch with the author's new projects through emails.
 
 ## Lanfeust 
@@ -51,25 +50,28 @@ We have four different sections:  Synopsis, Main character, the Universe of Troy
 In these sections. we will find information on the comic strip.
  this will include images of the characters, places the story, as well as the cover of the different volumes.
 
-
 ## Testing 
 
 I have tried the site on several browsers  and it works correctly.
 
-I have verified that the site is responsive with the deevtoole device toolbar.
+- Gafari
+- Google Chrome
+- Microsft Edge
+- Firefox
 
 ## Validator testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator]
-  -![testing_html1](assets/images/images_readme/testing_1_html.png)
-   ![testing_html2](assets/images/images_readme/testing_2_html.png)
+  ![testing_html1](assets/images/images_readme/testing_1_html.png)
+  ![testing_html2](assets/images/images_readme/testing_2_html.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
 ![css_validator](assets/images/images_readme/css_validator.png)
  
  - accessibility
+  -I confirmed the accesbility by running it throught the lighthouse in devtools 
 ![lghthouse](assets/images/images_readme/lighthouse.png)
 
 ## Bugs
@@ -133,4 +135,3 @@ For the icons taken for the different pages
 
 This also includes the images used for the site.
 
-python3 -m http.server 
