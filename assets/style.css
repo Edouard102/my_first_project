@@ -169,7 +169,7 @@ p {
     /* end of credit */
 
 .biocontainer {
-     padding: 10;}
+     padding: 10px;}
 .biotable {
     width: 30%;
     height: 290px;
@@ -179,25 +179,10 @@ p {
     float: right;
     margin-right: 50px;
     margin-left: 10px;
-    /* padding: 10px 0; */
-    /* padding-left: 10px; */
-}
-/* 
-tr {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-tr,
 td {
-    text-align: left;
-}
-*/
-
-td {
-    /* border: 1px solid #ffc107; */
     padding: 5px;
-  
 }
 
 .p-bio{
@@ -300,7 +285,7 @@ li {
     width: 100%;
     overflow: hidden;
     background: url('../assets/images/background_lanfeust.jpg') no-repeat center center;
-    background-size: cointain;
+    background-size: cover;
 }
 
 .signup-form {
