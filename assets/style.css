@@ -208,9 +208,11 @@ td {
 ol {
     list-style-type: circle;
     text-align: justify;
-    height: 100%;
-    width: 700px;
-    margin-left: 300px;
+    max-width: 700px;
+}
+
+.liste-bibli{
+ margin-left: 300px;
 }
 
 li {
@@ -242,6 +244,7 @@ li {
     overflow: hidden;
     position: relative;
     background: url('../assets/images/lanfeust-de-troy-bandeau.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #tile-lan{
@@ -259,11 +262,11 @@ li {
     -0.02em 0.02em black,
     0.02em -0.02em black,
     0.02em 0.02em black;}
-    
+
 #imgcharacter>img {
     clear: both;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     padding: 10px;
     border-style: solid;
     border-color: #ffc107;
@@ -273,27 +276,18 @@ li {
     position: relative;
     margin-right: 250px;
 }
-
-#imgcounty>img {
-    clear: both;
-    float: right;
-    margin-right: 250px;
-    position: relative;
+.h2-lan{
+    margin-top: 20px;
 }
-
 /* style publication*/
 
 #publication {
-
-    list-style-type: disc;
-    text-align: justify;
-    height: 100%;
-    width: 700px;
-  margin-left: 400px;
+    margin: 0 auto;
 }
 
 #imgpubli>img {
     clear: both;
+
     margin-left: 12px;
     width: 10%;
     height: auto;
@@ -307,7 +301,6 @@ li {
     overflow: hidden;
     background: url('../assets/images/background_lanfeust.jpg') no-repeat center center;
     background-size: cointain;
-    /* background-color: #3e120f; */
 }
 
 .signup-form {
@@ -412,7 +405,6 @@ li {
         margin-left: 50px;
     }
 
-        
     #main-title {
         font-size: 30px;
         margin-top: 100px;
@@ -432,29 +424,20 @@ li {
         margin-left: 50px;
     }
 
-    ol {
-        margin-left: 70px; 
-    }
+    .liste-bibli{
+        margin-left: 50px;
+       }
 
     /*lanfeust.html*/
-    #imgcharacter>img {
-        width: 150px;
-        height: 150px;
-        margin-right: 25px;
-    }
 
-    #imgcounty>img {
-        height: auto;
-        width: 15%;
-        padding-top: 10px;
-        margin-right: 25px;
+    #imgcharacter>img {
+        width: 100px;
+        height: 100px;
+        margin-right: 100px;
     }
 
     #publication {
-        height: 100%;
-        width: 700px;
-        padding-left: 50px;
-        left: 200px;
+        margin: 0px 0px 36px 350px;
     }
 
     #imgpubli>img {
@@ -462,6 +445,7 @@ li {
         margin-left: 5px;
         width: 10%;
         height: auto;
+
     }
 
     .frame-news {
@@ -472,17 +456,27 @@ li {
         left: 15%;
         top:36%;
     }
-
+}
 
 /* For medium screen sizes from 769px wide and down */
 @media screen and (max-width: 769px) {
-
-    p {
-        margin-left: 20px;
+    body{
+        font-size: 12px;
     }
 
+     /* index.html */
+
+    #main-title {
+        margin-top: -100px;
+        margin-right: 50px;
+    }
+
+    .liste-bibli{
+        margin-top: 10px;
+    }
+    
     #images {
-        margin-right: 10px;
+        margin: 70px 10px 70px 10px;
     }
 
     #images>img {
@@ -490,17 +484,65 @@ li {
         height: 210px;
     }
 
+    .biotable{
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .p-citation{
+        margin-left: 125px;
+    }
+    /* video.html */
+    
+    #frameborder>iframe {
+        width: 266px;
+        height: 210px;
+    }
+    
+    /* newsletter */
+
+    #background-lanfeust {
+    height: 500px;
+    width: 100%;
+    }
+    
+    .frame-news {
+        font-size: 100%;
+    }
+    
+    .signup-form {
+        left: 3%;
+        top:10%;
+    }
+
+    /*lanfeust.html*/
+
+    #lanfeust-de-troy-bandeau-image {
+        height: 200px;
+    }
+
+    #tile-lan {
+        font-size: 20px;
+    }
+
+    .p-synopsis{
+        margin: 0 auto
+    }
+
+    .p-charac{
+        margin:0 auto;
+    }
+
+    .p-uni{
+        margin: 0 auto
+    }
+
     #imgcharacter>img {
         margin-right: 5px;
     }
 
-    #imgcounty>img {
-        margin-right: 20px;
-    }
-
-    #frameborder>iframe {
-        width: 266px;
-        height: 210px;
+    #publication {
+        margin: 0px 0px 36px 150px;
     }
 }
 
@@ -554,10 +596,6 @@ li {
     }
 
     #imgcharacter>img {
-        margin-right: 20px;
-    }
-
-    #imgcounty>img {
         margin-right: 20px;
     }
 
