@@ -1,6 +1,7 @@
-# my_first_project
-https://ui.dev/amiresponsive?url=https://edouard102.github.io/my_first_project/
+
  # **Christophe Arleston**
+![responsicemockup]https://ui.dev/amiresponsive?url=https://edouard102.github.io/my_first_project/
+![responsicemockup](assets/images/images_readme/ami_responsive_home.png)
 
 The site on Christophe Arleston is an internet page to bring knowledge about this author but also to know his work in the comic strip.
 The site is intended for the person who does not know very well the author and who wishes to know more about his work.
@@ -8,11 +9,20 @@ The site is intended for the person who does not know very well the author and w
 
 ## Feature
 
- ## Navigation
 
-At the top of the page is the name on the page Christophe Arleston with a photo of him. On the right we can find the link for the three pages (navigation bar),
+ ## Navigation
+![the ](assets/images/images_readme/social_media.png)
+ On the top right we can find the link for the three pages (navigation bar)
 It will give you all three pages and easy access. the navigation bar includes links to the homepage, video and newsletter page. it is the same on all pages this will allow the user to easily navigate between pages>
 
+## the footer
+![the footer](assets/images/images_readme/social_media.png)
+Here you will find the different social media links such as Facebook, Instagram, YouTube on Christophe Arleston.
+And we will find it on all the pages. for a good homogenisation of the site.
+
+## home 
+
+At the top of the page is the name on the page Christophe Arleston with a photo of him.
 
 The homepage includes 2 images of the different characters he has created as well as a table that gives us information about his marital status
 biography section
@@ -20,12 +30,7 @@ He tells us what he has done so far. On his professional life.
 
 Next we have three sections which include Christophe Arleston's biography, his bibliography and citations of him through various works.
 
-## the footer
-
-Here you will find the different social media links such as Facebook, Instagram, YouTube on Christophe Arleston.
-And we will find it on all the pages. for a good homogenisation of the site.
-
- The video page.
+## The video page.
 
 We find the same layout as on the home page for the page header and footer.
 
@@ -54,19 +59,21 @@ I have tried the site on several browsers  and it works correctly.
 I have verified that the site is responsive with the deevtoole device toolbar.
 
 ## Validator testing
+
 - HTML
   - No errors were returned when passing through the official [W3C validator]
-  (assets/images/images_readme/testing_1_html.png)
-  (assets/images/images_readme/testing_2_html.png)
+  -![testing_html1](assets/images/images_readme/testing_1_html.png)
+   ![testing_html2](assets/images/images_readme/testing_2_html.png)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
+![css_validator](assets/images/images_readme/css_validator.png)
+ 
+ - accessibility
+![lghthouse](assets/images/images_readme/lighthouse.png)
 
- accessibility
-(assets/images/images_readme/lighthouse.png)
 ## Bugs
 
- 
-## unfixed bug
 
 ## deployment 
 To make this website accessible to the public, Walking Around 
@@ -85,14 +92,14 @@ has been deployed on [GitHub Pages](https://pages.github.com/) as follow :
 4. Scroll down to the **GitHub Pages** section.
 5. Click on the **None** dropdown menu and select the branch to publish : **master**.
 
-![selection of branch to publish](assets/images/images_readme/settings_main.png)
+![selection of branch to publish](assets/images/images_readme/setting_main.png)
 
 6. Click on **Save**.
 7. The website is now deployed.
 
 The link to the website is found in the **GitHub Pages** section of the repository settings.
 
-![website link](assets/images/images_readme/published.png)
+![website link](assets/images/images_readme/publish.png)
 
 ## Credit
 
@@ -110,9 +117,6 @@ For tips on vertical alignment in CSS.
 - [USERWAY](https://userway.org/blog/html-required-versus-aria-required)  
 For explanation on best use of the required attribute.
 
-[SJ_OWOW](https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css)  
-For vertical align code snippet used in css.
-
 - [Font Awesome](https://fontawesome.com/)
 For the icons taken for the different pages 
 
@@ -121,11 +125,11 @@ For the icons taken for the different pages
   The code for the video was provided by YouTube.
   
 - [content] of the different sections we were taken on :
-    (https://www.editions-soleil.fr/)
-    (https://www.babelio.com/)
-    (https://fr.wikipedia.org/wiki/Christophe_Arleston)
-    (https://fr.wikipedia.org/wiki/Lanfeust_de_Troy)
-    (https://www.bdtheque.com/)
+    * (https://www.editions-soleil.fr/)
+    * (https://www.babelio.com/)
+    * (https://fr.wikipedia.org/wiki/Christophe_Arleston)
+    * (https://fr.wikipedia.org/wiki/Lanfeust_de_Troy)
+    * (https://www.bdtheque.com/)
 
 This also includes the images used for the site.
 
