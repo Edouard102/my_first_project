@@ -71,6 +71,8 @@ p {
     border-bottom: 1px solid #ffc107;
 }
 
+/* --------------------------------------------------------------- style index.htlm------------------------------------------------------------------------------- */
+
 /*style image christophe arleston*/
 
 #main-title {
@@ -132,6 +134,7 @@ p {
     display: block;
 }
 /* --------------------------------------------------------------- style biography------------------------------------------------------------------------------- */
+
 /*style table*/
 
 /* 
@@ -190,6 +193,7 @@ td {
 }
 
 /* --------------------------------------------------------------- style Bibliography------------------------------------------------------------------------------- */
+
 ol {
     list-style-type: circle;
     text-align: justify;
@@ -264,6 +268,7 @@ li {
 .h2-lan{
     margin-top: 20px;
 }
+
 /* style publication*/
 
 #publication {
@@ -278,7 +283,7 @@ li {
     height: auto;
 }
 
-/*add style to newsletter.html*/
+/* --------------------------------------------------------------- add style to newsletter.html------------------------------------------------------------------------------- */
 
 #background-lanfeust {
     height: 800px;
@@ -354,7 +359,7 @@ li {
     font-weight: bold;
 }
 
-/* add style to video html */
+/* --------------------------------------------------------------- add style to video html------------------------------------------------------------------------------- */
 
 .bluebackground {
     height: 100%;
@@ -362,7 +367,6 @@ li {
     overflow: hidden;
     background: url('../assets/images/bluebackground.jpg') no-repeat center center;
     background-size: cover;
-
 }
 
 #frameborder>iframe {
@@ -376,7 +380,7 @@ li {
     position: relative;
 }
 
-/*media queries*/
+/* --------------------------------------------------------------- media queries------------------------------------------------------------------------------- */
 
 /* For larger to medium screens size from 1400px wide and down */
 @media screen and (max-width: 1400px) {
@@ -386,6 +390,7 @@ li {
     }
 
      /* index.html */
+
     .p-bio{
         margin-left: 50px;
     }
@@ -444,7 +449,9 @@ li {
 }
 
 /* For medium screen sizes from 769px wide and down */
+
 @media screen and (max-width: 769px) {
+
     body{
         font-size: 12px;
     }
@@ -477,6 +484,7 @@ li {
     .p-citation{
         margin-left: 125px;
     }
+
     /* video.html */
     
     #frameborder>iframe {
@@ -532,6 +540,7 @@ li {
 }
 
 /* For small screen sizes below 320px width */
+
 @media screen and (max-width: 320px) {
 
     body{
@@ -544,6 +553,7 @@ li {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
      /* index.html */
 
     #main-title {
@@ -588,6 +598,7 @@ li {
         margin-left: 10px;
         width: 300px;
     }
+    
     /* video.html */
     
     #frameborder>iframe {

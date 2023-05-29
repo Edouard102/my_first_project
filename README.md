@@ -75,7 +75,8 @@ I have tried the site on several browsers  and it works correctly.
 ![lghthouse](assets/images/images_readme/lighthouse.png)
 
 ## Bugs
-
+ Many errors were due to duplication of codes for different sections.
+ To correct them I added class or id. 
 
 ## deployment 
 To make this website accessible to the public, Walking Around 
