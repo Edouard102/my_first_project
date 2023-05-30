@@ -10,7 +10,7 @@ The site is intended for the person who does not know very well the author and w
 
  ## Navigation
 
-![the ](assets/images/images_readme/nav_bar.png)
+![the navigation bar](assets/images/images_readme/nav_bar.png)
  On the top right we can find the link for the three pages (navigation bar)
 It will give you all three pages and easy access. the navigation bar includes links to the homepage, video and newsletter page. it is the same on all pages this will allow the user to easily navigate between pages>
 
@@ -54,7 +54,7 @@ In these sections. we will find information on the comic strip.
 
 I have tried the site on several browsers  and it works correctly.
 
-- Gafari
+- Safari
 - Google Chrome
 - Microsft Edge
 - Firefox

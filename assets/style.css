@@ -382,8 +382,9 @@ li {
 
 /* --------------------------------------------------------------- media queries------------------------------------------------------------------------------- */
 
-/* For larger to medium screens size from 1400px wide and down */
-@media screen and (max-width: 1400px) {
+/* For larger to medium screens size from 1440px wide and down */
+
+@media screen and (max-width: 1440px) {
 
     body{
         font-size: 15px;
@@ -410,8 +411,9 @@ li {
     #circle-cover-bg {
         background-size: 100%;
     }
+
     #images{
-        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .liste-bibli{
@@ -446,6 +448,28 @@ li {
         left: 15%;
         top:36%;
     }
+}
+
+
+/* For larger to medium screens size from 1050px wide and down */
+@media screen and (max-width: 1050px) {
+
+   
+     /* index.html */
+
+    #main-title {
+        font-size: 30px;
+        margin-top: -100px;
+    }
+
+   #images{
+    margin-left: 20px;
+        margin-right: 40px;
+    }
+    #images>img {
+            height: 30%;
+            width: auto;
+        }
 }
 
 /* For medium screen sizes from 769px wide and down */
@@ -539,9 +563,9 @@ li {
     }
 }
 
-/* For small screen sizes below 320px width */
+/* For small screen sizes below 426px width */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
 
     body{
         font-size: 12px;
